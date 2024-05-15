@@ -2,6 +2,10 @@
 
 - By default [`rye`](https://rye-up.com/) will use [uv](https://github.com/astral-sh/uv)
 
+## Demo
+
+![](media/banner.gif)
+
 ```sh
 # initialise
 rye init
