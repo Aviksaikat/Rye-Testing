@@ -1,6 +1,6 @@
 # rye-test
 
-- By default `rye` will use [uv](https://github.com/astral-sh/uv)
+- By default [`rye`](https://rye-up.com/) will use [uv](https://github.com/astral-sh/uv)
 
 ```sh
 # initialise
