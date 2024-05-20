@@ -26,6 +26,14 @@ With that said, stuff is changing rapidly and evidently there's a lot of competi
 # initialise
 rye init
 
+# install toolchains
+rye toolchain list --include-downloadable
+# Download the toolchain python
+rye toolchain fetch 3.10 # version
+
+# Change project python version
+rye pin <python version> # must be installed from toolchains
+
 # add deps
 rye add rich
 # add dev deps
